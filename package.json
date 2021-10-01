@@ -49,6 +49,7 @@
 		]
 	},
 	"devDependencies": {
+		"chroma-js": "^2.1.2",
 		"nodemon": "^2.0.13"
 	},
 	"scripts": {
