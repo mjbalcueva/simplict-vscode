@@ -32,9 +32,13 @@ The product icon theme seen in the screenshot above is [Material Product Icons](
 
 ## Theming Reference
 
-- File structure based on [GitHub Theme](https://github.com/primer/github-vscode-theme)
-- Syntax colors based on [One Dark Pro](https://github.com/Binaryify/OneDark-Pro)
+- [VS Code Semantic Highlighting Guide](https://code.visualstudio.com/api/language-extensions/semantic-highlight-guide)
 - [VS Code Theme Color Reference](https://code.visualstudio.com/docs/getstarted/theme-color-reference)
 - [VS Code Theme Documentation](https://code.visualstudio.com/docs/extensions/themes-snippets-colorizers)
 - [VS Code Publishing Extensions](https://code.visualstudio.com/docs/extensions/publish-extension)
-- Workbench colors is based on [Ayu Mirage Theme](https://github.com/teabyii/vscode-ayu)
+
+## Inspired by
+
+- [Ayu Mirage Theme](https://github.com/teabyii/vscode-ayu)
+- [GitHub Theme](https://github.com/primer/github-vscode-theme)
+- [One Dark Pro](https://github.com/Binaryify/OneDark-Pro)
