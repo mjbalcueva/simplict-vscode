@@ -12,7 +12,7 @@ const darkDimmedTheme = getTheme({
 });
 
 const lightDefaultTheme = getTheme({
-	theme: 'dimmed',
+	theme: 'light',
 	name: 'SimpliCT Light Default',
 });
 
