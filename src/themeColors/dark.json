@@ -1,1 +1,14 @@
-{}
+{
+	"fg": {
+		"default": "#888f9a",
+		"muted": "#f10000"
+	},
+	"canvas": {
+		"primary": "#161b22",
+		"secondary": "#11141A",
+		"tertiary": "#0B0D11"
+	},
+	"accent": {
+		"emphasis": "#BFA241"
+	}
+}

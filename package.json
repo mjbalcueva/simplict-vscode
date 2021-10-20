@@ -35,16 +35,6 @@
 				"label": "SimpliCT Dark Default",
 				"uiTheme": "vs-dark",
 				"path": "./themes/dark-default.json"
-			},
-			{
-				"label": "SimpliCT Dark Dimmed",
-				"uiTheme": "vs-dark",
-				"path": "./themes/dark-dimmed.json"
-			},
-			{
-				"label": "SimpliCT Light Default",
-				"uiTheme": "vs",
-				"path": "./themes/light-default.json"
 			}
 		]
 	},
