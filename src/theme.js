@@ -14,6 +14,7 @@ const getTheme = ({ theme, name }) => {
 		name: name,
 		//~ UI Colors
 		colors: {
+			focusBorder: hex(color.attention.emphasis),
 			foreground: hex(color.fg.default),
 			'icon.foreground': hex(color.fg.default),
 			'sash.hoverBorder': hex(color.accent.emphasis),
@@ -24,28 +25,49 @@ const getTheme = ({ theme, name }) => {
 			'activityBar.foreground': hex(color.fg.default),
 
 			'sideBar.background': hex(color.canvas.secondary),
+			// 'sideBar.border': hex(color.canvas.border),
 			'sideBarSectionHeader.background': hex(color.canvas.tertiary),
 
 			'editor.background': hex(color.canvas.primary),
+			'editor.foreground': hex(color.fg.default),
 
+			'editorGroup.border': hex(color.canvas.tertiary),
 			'editorGroupHeader.tabsBackground': hex(color.canvas.secondary),
 			'editorGroupHeader.noTabsBackground': hex(color.canvas.secondary),
 
-			'editorWidget.background': hex(color.canvas.secondary),
+			'tab.activeBorder': hex(color.accent.emphasis),
+			'tab.activeForeground': hex(color.fg.default),
+			'tab.inactiveBackground': hex(color.canvas.secondary),
+			'tab.inactiveForeground': hex(color.fg.defaultMuted),
+			'tab.unfocusedActiveBorder': hex(color.accent.none),
+			'tab.unfocusedActiveBackground': hex(color.canvas.secondary),
+			'tab.unfocusedActiveForeground': hex(color.fg.defaultMuted),
+			'tab.unfocusedInactiveForeground': hex(color.fg.defaultMuted),
+
+			'editorWidget.background': hex(color.canvas.accentSpecial),
 			'editorWidget.foreground': hex(color.fg.default),
 
-			'panel.background': hex(color.canvas.secondary),
+			'peekView.border': hex(color.canvas.none),
+			'peekViewEditor.background': hex(color.canvas.accentPrimary),
+			'peekViewResult.background': hex(color.canvas.accentSecondary),
+			'peekViewTitle.background': hex(color.canvas.accentTertiary),
+
+			'panel.background': hex(color.canvas.primary),
+			'panel.border': hex(color.canvas.border),
 			'panelTitle.activeForeground': hex(color.fg.default),
 
 			'statusBar.background': hex(color.canvas.tertiary),
 			'statusBar.foreground': hex(color.fg.default),
-
-			'tab.inactiveBackground': hex(color.canvas.secondary),
+			'statusBarItem.remoteBackground': hex(color.accent.emphasis),
+			'statusBarItem.remoteForeground': hex(color.canvas.tertiary),
 
 			'titleBar.activeBackground': hex(color.canvas.tertiary),
 			'titleBar.inactiveBackground': hex(color.canvas.tertiary),
-			'titleBar.activeForeground': hex(color.fg.default),
+			'titleBar.activeForeground': hex(color.fg.defaultMuted),
 			'titleBar.inactiveForeground': hex(color.fg.default),
+
+			'menu.background': hex(color.canvas.accentSpecial),
+			'menu.foreground': hex(color.fg.default),
 		},
 		//~ Semantic Sytax Highlighting
 		semanticHighlighting: true,
