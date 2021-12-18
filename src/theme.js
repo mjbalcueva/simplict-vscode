@@ -16,20 +16,35 @@ const getTheme = ({ theme, name }) => {
 		colors: {
 			focusBorder: hex(color.attention.emphasis),
 			foreground: hex(color.fg.default),
-			'icon.foreground': hex(color.fg.default),
+			'icon.foreground': hex(color.fg.text),
 			'sash.hoverBorder': hex(color.accent.emphasis),
 
+			'button.background': hex(color.accent.emphasis),
+			'button.foreground': hex(color.canvas.secondary),
+			'button.hoverBackground': hex(color.accent.emphasis),
+
+			'dropdown.background': hex(color.canvas.secondary),
+			'dropdown.listBackground': hex(color.canvas.accentSecondary),
+			'dropdown.foreground': hex(color.fg.default),
+
+			'activityBarBadge.background': hex(color.accent.emphasis),
+			'activityBarBadge.foreground': hex(color.canvas.tertiary),
+
 			'progressBar.background': hex(color.accent.emphasis),
+
+			'input.background': hex(color.canvas.special),
+			'input.foreground': hex(color.fg.text),
+			'input.placeholderForeground': hex(color.fg.default),
 
 			'activityBar.background': hex(color.canvas.tertiary),
 			'activityBar.foreground': hex(color.fg.default),
 
 			'sideBar.background': hex(color.canvas.secondary),
-			// 'sideBar.border': hex(color.canvas.border),
+			'sideBar.border': hex(color.attention.emphasis),
 			'sideBarSectionHeader.background': hex(color.canvas.tertiary),
 
 			'editor.background': hex(color.canvas.primary),
-			'editor.foreground': hex(color.fg.default),
+			'editor.foreground': hex(color.fg.text),
 			'editorCursor.background': hex(color.canvas.primary),
 			'editorCursor.foreground': hex(color.accent.emphasis),
 
@@ -47,6 +62,7 @@ const getTheme = ({ theme, name }) => {
 			'tab.unfocusedInactiveForeground': hex(color.fg.defaultMuted),
 
 			'editorWidget.background': hex(color.canvas.accentSpecial),
+			'editorGhostText.foreground': hex(color.fg.defaultMuted),
 			'editorWidget.foreground': hex(color.fg.default),
 
 			'peekView.border': hex(color.canvas.none),
@@ -54,7 +70,7 @@ const getTheme = ({ theme, name }) => {
 			'peekViewResult.background': hex(color.canvas.accentSecondary),
 			'peekViewTitle.background': hex(color.canvas.accentTertiary),
 
-			'panel.background': hex(color.canvas.primary),
+			'panel.background': hex(color.canvas.secondary),
 			'panel.border': hex(color.canvas.border),
 			'panelTitle.activeForeground': hex(color.fg.default),
 
@@ -65,11 +81,20 @@ const getTheme = ({ theme, name }) => {
 
 			'titleBar.activeBackground': hex(color.canvas.tertiary),
 			'titleBar.inactiveBackground': hex(color.canvas.tertiary),
-			'titleBar.activeForeground': hex(color.fg.defaultMuted),
-			'titleBar.inactiveForeground': hex(color.fg.defaultMuted),
+			'titleBar.activeForeground': hex(color.fg.default),
+			'titleBar.inactiveForeground': hex(color.fg.default),
 
 			'menu.background': hex(color.canvas.accentSpecial),
 			'menu.foreground': hex(color.fg.default),
+
+			// 'quickInput.background': hex(color.fg.default),
+			'quickInputTitle.background': hex(color.canvas.tertiary),
+
+			'settings.headerForeground': hex(color.fg.text),
+			'settings.modifiedItemIndicator': hex(color.accent.emphasis),
+			'settings.textInputBackground': hex(color.canvas.secondary),
+			'settings.numberInputBackground': hex(color.canvas.secondary),
+			'settings.focusedRowBackground': hex(color.canvas.special),
 		},
 		//~ Semantic Sytax Highlighting
 		semanticHighlighting: true,

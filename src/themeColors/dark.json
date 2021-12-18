@@ -1,28 +1,32 @@
 {
 	"fg": {
 		"default": "#858a93",
-		"defaultMuted": "#696E77",
-		"text": "#a0a5ab",
+		"defaultMuted": "#5C626A",
+		"text": "#ccc",
 		"red": "#f10000",
 		"none": "#0000"
 	},
 	"canvas": {
-		"primary": "#171f26",
+		"primary": "#171E25",
 		"secondary": "#11161c",
 		"tertiary": "#0c0e12",
+		"special": "#222C33",
 		"accentPrimary": "#161b22",
 		"accentSecondary": "#11141a",
 		"accentTertiary": "#0b0d11",
 		"accentSpecial": "#101319",
 		"accentRed": "#f10000",
 		"border": "#303540",
+		"red": "#f10000",
 		"none": "#0000"
 	},
 	"accent": {
-		"emphasis": "#d9bf3f",
+		"emphasis": "#dbc244",
+		"emphasisMuted": "#bfa241",
+		"red": "#f10000",
 		"none": "#0000"
 	},
 	"attention": {
-		"emphasis": "#424E5A"
+		"emphasis": "#2F3740"
 	}
 }
