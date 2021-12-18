@@ -30,6 +30,8 @@ const getTheme = ({ theme, name }) => {
 
 			'editor.background': hex(color.canvas.primary),
 			'editor.foreground': hex(color.fg.default),
+			'editorCursor.background': hex(color.canvas.primary),
+			'editorCursor.foreground': hex(color.accent.emphasis),
 
 			'editorGroup.border': hex(color.canvas.tertiary),
 			'editorGroupHeader.tabsBackground': hex(color.canvas.secondary),
@@ -64,7 +66,7 @@ const getTheme = ({ theme, name }) => {
 			'titleBar.activeBackground': hex(color.canvas.tertiary),
 			'titleBar.inactiveBackground': hex(color.canvas.tertiary),
 			'titleBar.activeForeground': hex(color.fg.defaultMuted),
-			'titleBar.inactiveForeground': hex(color.fg.default),
+			'titleBar.inactiveForeground': hex(color.fg.defaultMuted),
 
 			'menu.background': hex(color.canvas.accentSpecial),
 			'menu.foreground': hex(color.fg.default),

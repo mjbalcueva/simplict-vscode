@@ -8,8 +8,8 @@
 	},
 	"canvas": {
 		"primary": "#171f26",
-		"secondary": "#12171d",
-		"tertiary": "#0d0f14",
+		"secondary": "#11161c",
+		"tertiary": "#0c0e12",
 		"accentPrimary": "#161b22",
 		"accentSecondary": "#11141a",
 		"accentTertiary": "#0b0d11",
@@ -19,7 +19,7 @@
 		"none": "#0000"
 	},
 	"accent": {
-		"emphasis": "#bfa241",
+		"emphasis": "#d9bf3f",
 		"none": "#0000"
 	},
 	"attention": {
