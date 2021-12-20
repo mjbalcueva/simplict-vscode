@@ -1,32 +1,45 @@
 {
 	"fg": {
+		"accent": "#303640",
 		"default": "#858a93",
-		"defaultMuted": "#5C626A",
-		"text": "#ccc",
-		"red": "#f10000",
-		"none": "#0000"
+		"defaultMuted": "#5c626a",
+		"text": "#b0b2b8",
+		"special": "#475e68"
 	},
 	"canvas": {
-		"primary": "#171E25",
+		"primary": "#171e25",
 		"secondary": "#11161c",
 		"tertiary": "#0c0e12",
-		"special": "#222C33",
+		"special": "#252B33",
 		"accentPrimary": "#161b22",
 		"accentSecondary": "#11141a",
 		"accentTertiary": "#0b0d11",
 		"accentSpecial": "#101319",
-		"accentRed": "#f10000",
-		"border": "#303540",
-		"red": "#f10000",
-		"none": "#0000"
+		"border": "#303540"
 	},
 	"accent": {
 		"emphasis": "#dbc244",
 		"emphasisMuted": "#bfa241",
-		"red": "#f10000",
-		"none": "#0000"
+		"special": "#dbc24459"
 	},
 	"attention": {
-		"emphasis": "#2F3740"
-	}
+		"emphasis": "#204b79",
+		"emphasisMuted": "#12304d"
+	},
+	"ghost": {
+		"primary": "#1c232b",
+		"secondary": "#262d36",
+		"accentPrimary": "#30364073",
+		"accentSecondary": "#303640a6"
+	},
+	"text": {
+		"blue": "#00afdb",
+		"green": "#00c788",
+		"orange": "#e8a73a",
+		"red": "#f15b62",
+		"white": "#adadad",
+		"yellow": "#dcde78"
+	},
+	"none": "#0000",
+	"red": "#f10000"
 }
