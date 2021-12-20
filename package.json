@@ -35,22 +35,12 @@
 				"label": "SimpliCT Dark Default",
 				"uiTheme": "vs-dark",
 				"path": "./themes/dark-default.json"
-			},
-			{
-				"label": "SimpliCT Dark Dimmed",
-				"uiTheme": "vs-dark",
-				"path": "./themes/dark-dimmed.json"
-			},
-			{
-				"label": "SimpliCT Light Default",
-				"uiTheme": "vs",
-				"path": "./themes/light-default.json"
 			}
 		]
 	},
 	"devDependencies": {
 		"chroma-js": "^2.1.2",
-		"nodemon": "^2.0.13"
+		"nodemon": "^2.0.14"
 	},
 	"scripts": {
 		"start": "nodemon --watch src src/index.js",
