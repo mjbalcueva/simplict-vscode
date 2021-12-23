@@ -33,12 +33,16 @@
 		"accentSecondary": "#303640a6"
 	},
 	"text": {
-		"blue": "#00afdb",
-		"green": "#00c788",
-		"orange": "#e8a73a",
-		"red": "#f15b62",
-		"white": "#adadad",
-		"yellow": "#dcde78"
+		"blue": "#32badb",
+		"black": "#636979",
+		"cyan": "#56C4C4",
+		"green": "#24C793",
+		"orange": "#e3945f",
+		"pink": "#d964c5",
+		"purple": "#A87EE6",
+		"red": "#fa646b",
+		"white": "79929C",
+		"yellow": "#d4d074"
 	},
 	"none": "#0000",
 	"red": "#f10000"
