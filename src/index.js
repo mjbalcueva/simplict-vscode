@@ -1,37 +1,30 @@
 const fs = require('fs').promises
 const getTheme = require('./theme')
 
-const darkDefaultTheme = getTheme({
-	theme: 'dark',
-	name: 'SimpliCT Dark Default',
+const darkTheme = getTheme({
+	theme: 'vs-dark',
+	name: 'SimpliCT Dark',
 })
 
 /**
- *	const darkDimmedTheme = getTheme({
- *		theme: 'dimmed',
- *		name: 'SimpliCT Dark Dimmed',
+ *	const hcTheme = getTheme({
+ *		theme: 'hc-black',
+ *		name: 'SimpliCT High Contrast',
  *	});
  *
- *	const lightDefaultTheme = getTheme({
- *		theme: 'light',
- *		name: 'SimpliCT Light Default',
+ *	const lightTheme = getTheme({
+ *		theme: 'vs',
+ *		name: 'SimpliCT Light',
  *	});
  */
 
 fs.mkdir('./themes', { recursive: true })
 	.then(() =>
 		Promise.all([
-			fs.writeFile('./themes/dark-default.json', JSON.stringify(darkDefaultTheme, null, 2)),
+			fs.writeFile('./themes/simplict_dark.json', JSON.stringify(darkTheme, null, 2)),
 			/**
-			 *	fs.writeFile(
-			 *		'./themes/dark-dimmed.json',
-			 *		JSON.stringify(darkDimmedTheme, null, 2),
-			 *	),
-			 *
-			 *	fs.writeFile(
-			 *		'./themes/light-default.json',
-			 *		JSON.stringify(lightDefaultTheme, null, 2),
-			 *	),
+			 *	fs.writeFile('./themes/simplict_hc.json', JSON.stringify(hcTheme, null, 2)),
+			 *	fs.writeFile('./themes/simplict_light.json', JSON.stringify(lightTheme, null, 2)),
 			 */
 		]),
 	)

@@ -26,6 +26,7 @@
 	"keywords": [
 		"dark",
 		"light",
+		"high-contrast",
 		"simplict",
 		"theme"
 	],
@@ -34,7 +35,7 @@
 			{
 				"label": "SimpliCT Dark Default",
 				"uiTheme": "vs-dark",
-				"path": "./themes/dark-default.json"
+				"path": "./themes/simplict_dark.json"
 			}
 		]
 	},
