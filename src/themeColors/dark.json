@@ -1,18 +1,25 @@
 {
-	"BG": "#171e25",
-	"BG_Dark": "#11161c",
+	"BG": "#181F26",
+	"BG_Dark": "#11161C",
 	"BG_Darker": "#0c0e12",
 	"FG": "#90A4AE",
 	"FG_Dark": "#858a93",
 	"FG_Darker": "#676c75",
 
 	"Border": "#dbc244",
-	"Border_Alternate": "#303540",
+	"Border_Dark": "#C4AE3B",
+	"Border_Alternate": "#4E535C",
+	"Border_Alternate_Dark": "#303540",
+	"Border_Alternate_Darker": "#242A32",
 	"Comment": "#636979",
 
 	"Shade": "#343944",
 	"Shade_Dark": "#2c3039",
 	"Shade_Darker": "#24272d",
+
+	"Util": "#353B45",
+	"Util_Dark": "#17181C",
+	"Util_Darker": "#0E1117",
 
 	"red": "#f10000",
 	"pink": "#dc72ca",
