@@ -32,14 +32,13 @@ const getTheme = ({ theme, name }) => {
 			'badge.background': hex(color.Shade_Dark),
 			'badge.foreground': hex(color.FG),
 
-			// 'dropdown.background': hex(color.Shade_Darker),
-			// 'dropdown.listBackground': hex(color.BG_Dark),
-			// 'dropdown.border': hex(color.border_Alternate_Dark),
+			'dropdown.background': hex(color.Shade_Dark),
+			'dropdown.listBackground': hex(color.Shade_Dark),
 			'dropdown.foreground': hex(color.FG),
 
-			'input.background': hex(color.Border_Alternate_Darker),
+			'input.background': hex(color.Shade_Dark),
 			'input.foreground': hex(color.FG),
-			'input.placeholderForeground': hex(color.FG_Darker),
+			'input.placeholderForeground': hex(color.FG_Dark),
 			'inputOption.activeBackground': hex(color.Util),
 			'inputOption.activeBorder': hex(color.Border_Alternate),
 			'inputOption.activeForeground': hex(color.FG),
@@ -94,7 +93,7 @@ const getTheme = ({ theme, name }) => {
 			'panelTitle.inactiveForeground': hex(color.FG_Darker),
 
 			'statusBar.background': hex(color.BG_Darker),
-			'statusBar.foreground': hex(color.FG_Dark),
+			'statusBar.foreground': hex(color.FG),
 			'statusBar.debuggingBackground': hex(color.BG_Darker),
 			'statusBar.noFolderBackground': hex(color.BG_Darker),
 			'statusBarItem.remoteBackground': hex(color.Border),
@@ -102,8 +101,8 @@ const getTheme = ({ theme, name }) => {
 
 			'titleBar.activeBackground': hex(color.BG_Darker),
 			'titleBar.inactiveBackground': hex(color.BG_Darker),
-			'titleBar.activeForeground': hex(color.FG_Dark),
-			'titleBar.inactiveForeground': hex(color.FG_Dark),
+			'titleBar.activeForeground': hex(color.FG),
+			'titleBar.inactiveForeground': hex(color.FG),
 
 			'breadcrumb.foreground': hex(color.FG_Darker),
 			'breadcrumb.focusForeground': hex(color.FG_Dark),
